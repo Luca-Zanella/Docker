@@ -1,0 +1,13 @@
+1# --> Il problema potrebbe essere che un servizio chiede una versione della libreria mentre un altro richiede un'altra veriosne della libreria
+2# --> Bisogna controllare la compatibilità durante gli update delle varie architetture.
+3# --> Non si può garantire che il progetto che stiamo eseguendo si esegua correttamente su altri ambienti
+4# --> Possiamo modificare i nostri componenti senza andare a coinvolgere gli altri oggetti
+5# --> I container condividono lo stesso sistema operativo
+6# --> I container non condividono lgi stessi servizi e librerie
+7# --> Vuol dire che tutti i container hanno come base lo stesso sistema operativo ad esempio linux
+8# --> no
+9# --> Hypervisor sarebbe la macchina virtuale quindi come se noi avessimo solo un conteiner con prestazioni bassissime, mentre docker sono vari container che contengono vari servizi
+10# --> Le prestazioni sono diverse 
+11# --> si va a scaricare oppure si esegue il comando con la relativa immagine che si vuole scaricare
+12#
+13# --> Si e poi si può andare a pubblicare sul repository di docker
